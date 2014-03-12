@@ -1,0 +1,54 @@
+/* Layout
+   ========================================================================== */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { font-size: 100%; }
+
+body { font: 1rem/1.5 "Arial", sans-serif; }
+
+a {
+  color: #4f9fCf;
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+/* Header
+   ========================================================================== */
+
+header { background-color: #f8f8f8; }
+
+/* Typography
+   ========================================================================== */
+
+
+/* Grid
+   ========================================================================== */
+
+
+/* Posts
+   ========================================================================== */
+
+
+/* Syntax Highlighting
+   ========================================================================== */
+
+pre, code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+pre { padding: 1rem; }
+code { padding: .1rem .3rem; }
+pre code { border: none; }
+
+/* Footer
+   ========================================================================== */

@@ -1,0 +1,5 @@
+name: Your New Jekyll Site
+description: Your Description
+markdown: redcarpet
+permalink: none
+pygments: true
