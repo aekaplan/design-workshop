@@ -20,11 +20,10 @@ In our last workshop, we will take a closer look at the details of our design an
 on [GitHub Pages](http://pages.github.com).
 
 ## Requirements
-* Laptop running OS X
-* HTML/CSS
-* Text Editor (TextMate, Sublime, VIM)
-* Git Installed
+* Laptop running Linux, Unix, or Mac OS X
+* Ruby and Git Installed
 * GitHub Account
+* Text Editor (TextMate, Sublime, VIM)
 
 ## Setup Jekyll
 
