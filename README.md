@@ -20,7 +20,7 @@ In our last workshop, we will take a closer look at the details of our design an
 on [GitHub Pages](http://pages.github.com).
 
 ## Requirements
-* Laptop/OS X
+* Laptop running OS X
 * HTML/CSS
 * Text Editor (TextMate, Sublime, VIM)
 * Git Installed
