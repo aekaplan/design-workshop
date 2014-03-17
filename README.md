@@ -1,32 +1,27 @@
-## 8th Light Design Workshop
+## Modern Web Design Workshop
 
 By [Adam Kaplan](http://adamkaplan.me) and [Stephanie Briones](http://stephaniebriones.com/)
 
-In this three part workshop, we're going to be covering
-the basics of building a responsive layout, applying visual design and selecting
-typefaces for the web. We will be using [Jekyll](http://jekyllrb.com) to create
-a blog and [GitHub Pages](http://pages.github.com) to host it.
+In this three part workshop, we're going to be covering the basics of building a mobile first responsive layout, applying
+simple visual design and selecting typefaces for the web. For our project, we will be creating a blog using
+[Jekyll](http://jekyllrb.com).
 
 ## Schedule
 
 ####Friday, March 21
-* Setup Jekyll
-* Layout
-* Mobile First Responsive Design
+In our first workshop, we will cover setting up a blog using [Jekyll](http://jekyllrb.com) and adding the foundation of our mobile first layout.
 
 ####Friday, March 28
-* Visual Design
-* Typography
-* Web Fonts
+In part two of our workshop, we will continue to refine our mobile first layout, focus on working with web type and discuss
+how to best use color on the web.
 
 ####Friday, April 4
-* Final Polish
-* Host on GitHub Pages
-
+In our last workshop, we will take a closer look at the details of our design and explain how you can easily host your blog
+on [GitHub Pages](http://pages.github.com).
 
 ## Requirements
+* Laptop/OS X
 * HTML/CSS
-* OSX
 * Text Editor (TextMate, Sublime, VIM)
 * Git Installed
 * GitHub Account
