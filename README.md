@@ -64,7 +64,7 @@ rm -rf blog
 
 #### Start the server
 ```
-jekyll serve --watch
+jekyll serve -w
 ```
 
 #### Visit
