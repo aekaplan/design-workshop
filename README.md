@@ -27,33 +27,39 @@ on [GitHub Pages](http://pages.github.com).
 
 ## Setup Jekyll
 
-We have created a barebones starting point for Jekyll. Included are some custom
-styles.
-
-#### Git clone
+#### Create a new repo
 ```
-git clone git@github.com:aekaplan/design-workshop.git
+yourusername.github.io
+```
+
+#### Clone the repo
+```
+git clone git@github.com:yourusername/yourusername.github.io.git
 ```
 
 #### Change directories
-
 ```
-cd design-workshop
-```
-
-#### Remove existing repo data
-```
-rm -rf ./.git
-```
-
-#### Create a new git repo
-```
-git init
+cd yourusername.github.io
 ```
 
 #### Install Jekyll
 ```
 gem install jekyll
+```
+
+#### Create new blog
+```
+jekyll new blog
+```
+
+#### Move directory
+```
+mv blog/* ./
+```
+
+#### Delete blog folder
+```
+rm -rf blog
 ```
 
 #### Start the server
