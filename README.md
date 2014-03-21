@@ -31,6 +31,7 @@ on [GitHub Pages](http://pages.github.com).
 * [Jekyll](http://jekyllrb.com/docs/installation/)
 * [Liquid](https://github.com/Shopify/liquid/wiki)
 * [Markdown Basics](https://help.github.com/articles/markdown-basics)
+* [Normalize.css](http://necolas.github.io/normalize.css/)
 * [Mobile first responsive design](http://www.adamkaplan.me/grid/)
 
 ## Setup Jekyll
