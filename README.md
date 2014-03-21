@@ -25,6 +25,14 @@ on [GitHub Pages](http://pages.github.com).
 * GitHub Account
 * Text Editor (TextMate, Sublime, VIM)
 
+## Resources
+* [Ruby](https://www.ruby-lang.org/en/downloads/)
+* [Git](http://git-scm.com/downloads)
+* [Jekyll](http://jekyllrb.com/docs/installation/)
+* [Liquid](https://github.com/Shopify/liquid/wiki)
+* [Markdown Basics](https://help.github.com/articles/markdown-basics)
+* [Mobile first responsive design](http://www.adamkaplan.me/grid/)
+
 ## Setup Jekyll
 
 #### Create a new repo
