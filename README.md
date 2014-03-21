@@ -29,7 +29,7 @@ on [GitHub Pages](http://pages.github.com).
 * [Ruby](https://www.ruby-lang.org/en/downloads/)
 * [Git](http://git-scm.com/downloads)
 * [Jekyll](http://jekyllrb.com/docs/installation/)
-* [GitHub Pages](http://pages.github.com).
+* [GitHub Pages](http://pages.github.com)
 * [Liquid](https://github.com/Shopify/liquid/wiki)
 * [Markdown Basics](https://help.github.com/articles/markdown-basics)
 * [Normalize.css](http://necolas.github.io/normalize.css/)
