@@ -13,7 +13,7 @@ html {
 }
 
 /**
- * Remove default margin.
+ * emove default margin.
  */
 
 body {
@@ -57,7 +57,7 @@ video {
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * emove excess height in iOS 5 devices.
  */
 
 audio:not([controls]) {
@@ -79,7 +79,7 @@ template {
    ========================================================================== */
 
 /**
- * Remove the gray background color from active links in IE 10.
+ * emove the gray background color from active links in IE 10.
  */
 
 a {
@@ -174,7 +174,7 @@ sub {
    ========================================================================== */
 
 /**
- * Remove border when inside `a` element in IE 8/9.
+ * emove border when inside `a` element in IE 8/9.
  */
 
 img {
@@ -301,7 +301,7 @@ html input[disabled] {
 }
 
 /**
- * Remove inner padding and border in Firefox 4+.
+ * emove inner padding and border in Firefox 4+.
  */
 
 button::-moz-focus-inner,
@@ -324,7 +324,7 @@ input {
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 2. emove excess padding in IE 8/9/10.
  */
 
 input[type="checkbox"],
@@ -334,9 +334,9 @@ input[type="radio"] {
 }
 
 /**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * Fix the cursor style for Chrome's incement/decement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
+ * decement button to change from `default` to `text`.
  */
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -358,7 +358,7 @@ input[type="search"] {
 }
 
 /**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * emove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
@@ -380,7 +380,7 @@ fieldset {
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 2. emove padding so people aren't caught out if they zero out fieldsets.
  */
 
 legend {
@@ -389,7 +389,7 @@ legend {
 }
 
 /**
- * Remove default vertical scrollbar in IE 8/9.
+ * emove default vertical scrollbar in IE 8/9.
  */
 
 textarea {
@@ -409,7 +409,7 @@ optgroup {
    ========================================================================== */
 
 /**
- * Remove most spacing between table cells.
+ * emove most spacing between table cells.
  */
 
 table {

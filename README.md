@@ -19,7 +19,7 @@ how to best use color on the web.
 In our last workshop, we will take a closer look at the details of our design and explain how you can easily host your blog
 on [GitHub Pages](http://pages.github.com).
 
-## Requirements
+## Requiements
 * Laptop running Linux, Unix, or Mac OS X
 * Ruby and Git Installed
 * GitHub Account
