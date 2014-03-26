@@ -1,5 +1,3 @@
-name: Your New Jekyll Site
-description: Your Description
-markdown: redcarpet
-permalink: none
-pygments: true
+name: Homer
+description: The Odyssey
+permalink: /:categories/:title/

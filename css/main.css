@@ -53,13 +53,19 @@ header {
 
 .logo {
   color: rgba(255,255,255,0.3);
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .logo:hover {
+  border: none;
   color: rgba(255,255,255,0.5);
   text-decoration: none;
 }
@@ -76,7 +82,7 @@ header {
 
   .column.full { width: 100%; }
   .column.two-thirds { width: 66.7%; }
-  .column.half { width: 200px; }
+  .column.half { width: 50%; }
   .column.third { width: 33.3%; }
   .column.fourth { width: 24.95%; }
   .column.flow-opposite { float: right; }
@@ -98,13 +104,13 @@ h1 {
 }
 
 @media (min-width: 40em) {
-  h1 { font-size: 3.5em; }
+  h1 { font-size: 3.3em; }
 }
 
 h2 {
   font-size: 1.8em;
   line-height: 1.5em;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
 h3 {
@@ -183,6 +189,43 @@ hr.short {
   display: block;
 }
 
+/* Buttons
+   ========================================================================== */
+
+.button-wrap { margin: 3em 0; }
+
+.button {
+  border: 2px solid rgba(255,255,255,0.1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: rgba(255,255,255,0.3);
+  float: left;
+  padding: 0.5em;
+  text-align: center;
+  -webkit-transition: color 0.2s ease, border 0.2s ease;
+  -moz-transition: color 0.2s ease, border 0.2s ease;
+  -o-transition: color 0.2s ease, border 0.2s ease;
+  -ms-transition: color 0.2s ease, border 0.2s ease;
+  transition: color 0.2s ease, border 0.2s ease;
+  width: 48%;
+}
+
+.button.next {
+  float: right;
+  margin-left: 4%;
+}
+
+a:hover.button {
+  border: 2px solid #f2583d;
+  color: #f2583d;
+}
+
+/* Footer
+   ========================================================================== */
+
+footer { padding: 1em 0; }
+
 /* Syntax Highlighting
    ========================================================================== */
 
@@ -194,14 +237,27 @@ pre, code {
 }
 
 pre { padding: 1em; }
-code { padding: .1em .3em; }
+code { padding: 0.1em 0.3em; }
 pre code {
   background: none;
   padding: 0;
 }
 
-/* Footer
+/* Utilities
    ========================================================================== */
 
-footer { padding: 1em 0; }
+.float-right { float: right; }
+
+
+/* Clearfix
+   ========================================================================== */
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after { clear: both; }
+.row { *zoom: 1; }
 
