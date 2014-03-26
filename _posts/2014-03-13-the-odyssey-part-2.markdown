@@ -33,7 +33,8 @@ Telemachus saw her long before any one else did. He was sitting moodily among th
 and how he would send them flying out of the house, if he were to come to his own again and be honoured as in days gone by.
 Thus brooding as he sat among them, he caught sight of Minerva and went straight to the gate, for he was vexed that a
 stranger should be kept waiting for admittance. He took her right hand in his own, and bade her give him her spear.
-"Welcome," said he, "to our house, and when you have partaken of food you shall tell us what you have come for."
+
+>"Welcome," said he, "to our house, and when you have partaken of food you shall tell us what you have come for."
 
 He led the way as he spoke, and Minerva followed him. When they were within he took her spear and set it in the spear- stand
 against a strong bearing-post along with the many other spears of his unhappy father, and he conducted her to a richly

@@ -9,10 +9,10 @@
 
 body {
   background: #363c47;
-  font: 400 100%/1.5 "Open Sans", serif;
   color: #cecece;
-  text-rendering: optimizeLegibility;
+  font: 400 100%/1.5 "Open Sans", serif;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 40em) {
@@ -35,20 +35,24 @@ a:hover {
   text-decoration: none;
 }
 
-::selection { background: rgba(255, 255, 255, 0.1); }
-::-moz-selection { background: rgba(255, 255, 255, 0.1); }
+::selection { background: rgba(255,255,255,0.1); }
+::-moz-selection { background: rgba(255,255,255,0.1); }
 
 /* Header
    ========================================================================== */
 
 header {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 3em;
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+  margin-bottom: 1.5em;
   padding: 1em 0;
 }
 
+@media (min-width: 40em ) {
+  header { margin-bottom: 3em; }
+}
+
 .logo {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255,255,255,0.3);
   font-size: .9em;
   font-weight: 700;
   letter-spacing: 1px;
@@ -56,7 +60,7 @@ header {
 }
 
 .logo:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255,255,255,0.5);
   text-decoration: none;
 }
 
@@ -104,7 +108,7 @@ h2 {
 }
 
 h3 {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255,255,255,0.3);
   font-size: 1em;
   font-weight: 700;
   line-height: 1.5em;
@@ -130,29 +134,34 @@ p {
 
 blockquote { margin: 1.5em 0; }
 
-@media (min-width: 40em) {
-  blockquote { margin: 3em; }
+blockquote p {
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
-blockquote p {
-  font-size: 1.5em;
-  font-weight: 300;
+@media (min-width: 40em) {
+  blockquote { margin: 2.5em 1.5em; }
+  blockquote p { font-size: 1.4em; }
 }
 
 /* Dividers
    ========================================================================== */
 
 hr {
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
   border: 0;
+  border-top: 2px solid rgba(255,255,255,0.1);
   height: 0;
-  margin: 2.5em auto;
+  margin: 2em auto;
   max-width: 5em;
 }
 
 hr.short {
   margin: 1em auto 2em auto;
   max-width: 2em;
+}
+
+@media (min-width: 40em) {
+  hr { margin: 2.5em auto; }
 }
 
 /* Posts
@@ -170,7 +179,7 @@ hr.short {
 }
 
 .post-date {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255,255,255,0.3);
   display: block;
 }
 
@@ -195,3 +204,4 @@ pre code {
    ========================================================================== */
 
 footer { padding: 1em 0; }
+
